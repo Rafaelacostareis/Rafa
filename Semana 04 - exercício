@@ -1,0 +1,36 @@
+ 1. Python
+Python é uma linguagem de alto nível, conhecida por sua sintaxe simples e legibilidade.
+
+Código:
+```python
+print("Olá, Mundo!")
+```
+
+ 2. JavaScript
+JavaScript é amplamente utilizado para desenvolvimento web, permitindo interatividade em páginas.
+
+Código:
+```javascript
+console.log("Olá, Mundo!");
+```
+
+ 3. Java
+Java é uma linguagem orientada a objetos, famosa por sua portabilidade entre diferentes plataformas.
+
+Código:
+```java
+public class OláMundo {
+    public static void main(String[] args) {
+        System.out.println("Olá, Mundo!");
+    }
+}
+```
+
+Execução do Código
+
+- Python: Salve o código em um arquivo `ola.py` e execute com o comando `python ola.py` no terminal.
+
+- JavaScript: Você pode executar o código no console do navegador (F12 para abrir as ferramentas de desenvolvedor) ou salvá-lo em um arquivo `.js` e executá-lo com `node arquivo.js` se tiver o Node.js instalado.
+
+- Java: Salve o código em um arquivo `OláMundo.java`, compile com `javac OláMundo.java` e execute com `java OláMundo`.
+
