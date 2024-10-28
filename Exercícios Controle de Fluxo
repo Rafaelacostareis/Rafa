@@ -1,0 +1,34 @@
+
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    # Percorre todos os elementos do array
+    for i in range(n):
+        # Últimos i elementos já estão ordenados
+        for j in range(0, n-i-1):
+            # Troca se o elemento encontrado é maior que o próximo
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+# Exemplo de uso
+lista = [64, 34, 25, 12, 22, 11, 90]
+lista_ordenada = bubble_sort(lista)
+print("Lista ordenada:", lista_ordenada)
+```
+
+### Explicação do Código
+
+- **Função `bubble_sort`**: Recebe uma lista (`arr`) como argumento.
+- **Loop externo**: Itera sobre todos os elementos.
+- **Loop interno**: Compara cada elemento com o próximo e troca se necessário. Após cada passagem, os maiores elementos "borbulham" para o final da lista.
+- **Retorno**: A função retorna a lista ordenada.
+
+### Exemplo de Saída
+
+Se você executar o código, verá a seguinte saída:
+
+```
+Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
+```
