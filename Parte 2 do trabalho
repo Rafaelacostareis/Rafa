@@ -1,0 +1,35 @@
+
+
+```python
+def imprimir_vogais(texto):
+    vogais = "aeiouAEIOU"  # Lista de vogais (minúsculas e maiúsculas)
+    resultado = ""  # Variável para armazenar as vogais encontradas
+
+    for letra in texto:  # Percorre cada letra no texto
+        if letra in vogais:  # Verifica se a letra é uma vogal
+            resultado += letra  # Adiciona a vogal ao resultado
+
+    return resultado  # Retorna as vogais encontradas
+
+# Exemplo de uso
+palavra = "Olá, Mundo!"
+vogais_encontradas = imprimir_vogais(palavra)
+print("Vogais encontradas:", vogais_encontradas)
+```
+
+### Explicação do Código
+
+- **Função `imprimir_vogais`**: Recebe um texto como argumento.
+- **Variável `vogais`**: Contém todas as vogais, tanto minúsculas quanto maiúsculas.
+- **Variável `resultado`**: Armazena as vogais encontradas.
+- **Loop `for`**: Percorre cada letra do texto e verifica se é uma vogal.
+- **Retorno**: A função retorna a string com as vogais encontradas.
+
+### Exemplo de Saída
+
+Se você executar o código com a palavra "Olá, Mundo!", a saída será:
+
+```
+Vogais encontradas: OaUo
+```
+
